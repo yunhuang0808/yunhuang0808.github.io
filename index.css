@@ -1,0 +1,161 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* top container */
+.top-bar-wrapper{
+    width: 768px;
+    height: 516px;
+    background-image: url(./img/top_ad.png);
+    background-size: 768px auto;
+    margin: 0 auto;
+}
+/* top logo box */
+.top-logo{
+    width: 256px;
+    height: 100px;
+    background-color: rgb(52, 52, 197);
+    margin: 0 auto;
+}
+/* top logo */
+.top-logo h2{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 45px;
+    margin: 0;
+}
+/* top slogan */
+.top-bar-wrapper .slogan{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+}
+/* top note */
+.top-bar-wrapper .note{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
+}
+/* img wrapper */
+.img-wrapper{
+    width: 768px;
+    margin: -100px auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-wrapper img{
+    width: 200px;
+}
+.img1{
+    margin-left: 50px;
+}
+.img3{
+    margin-right: 50px;
+}
+/* intro */
+.intro-wrapper{
+    width: 768px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.intro{
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.title-box{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(52, 52, 197);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/* intro detail box */
+.detail{
+    margin: 10px auto;
+    float: left;
+}
+.detail li{
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* right wrapper */
+.right-wrapper{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+/* price box */
+.price{
+    width: 220px;
+    height: 70px;
+    background-color: rgb(140, 188, 218);
+    color: white;
+    margin-top: 50px;
+}
+/* price text */
+.price .dollar{
+    font-size: 35px;
+    float: left;
+    line-height: 70px;
+    margin-left: 20px;
+}
+.price span{
+    font-size: 17px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/* contact boc */
+.number{
+    width: 220px;
+    height: 160px;
+    background-color: rgb(52, 52, 197);
+    color: white;
+    margin-top: 125px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 3;
+}
+/* contact text */
+.number .booking{
+    text-align: center;
+    font-size: 35px;  
+}
+.number .phone{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+/* bottom */
+.bottom-wrapper{
+    width: 768px;
+    height: 155px;
+    margin:0 auto;
+    background-color: rgb(140, 188, 218);
+    margin-top: 20px auto;
+    position: relative;
+}
+/* web link */
+.bottom-wrapper a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    z-index: 1;
+}
+/* web link deco */
+.bottom-wrapper a:hover{
+    color: dimgray;
+}
